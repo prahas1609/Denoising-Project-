@@ -1,1 +1,2 @@
-# Denoising-Project-
+# Denoising-Project
+This project leverages deep learning to denoise images, using a dataset of noisy and clean images with an average PSNR of 7.7. The model architecture is inspired by RIDNet and features Channel Attention and Spatial Attention layers to enhance key features and image regions. These layers work with convolution layers, pooling, and sigmoid activation to optimize feature extraction. Residual learning is employed for training, using stacked generalization for increased efficiency. The input images are processed into patches using the patchify library, and trained using Adam optimizer, early stopping, and reduced learning rate. The model achieved a final average PSNR of 23.45.
